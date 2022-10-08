@@ -1,15 +1,18 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 
   <title>SRN Web Developers</title>
 </head>
+
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
@@ -17,7 +20,8 @@
         <img src="logo.jpeg" alt="" width="30" height="24" class="d-inline-block align-text-top">
         SRN Web Developers
       </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -34,63 +38,70 @@
           <li class="nav-item">
             <a class="nav-link" href="Contact Us.html">Contact Us</a>
           </li>
-        </li>
-      </ul>
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li>
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-light" type="submit">Search</button>
+          </li>
+        </ul>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-light" type="submit">Search</button>
           </li>
           <li>
             <form class="container-fluid justify-content-start">
-              <button class="btn btn-outline-danger me-2 my-2" type="button"data-bs-toggle="modal" data-bs-target="#signupModal">Sign Up</button>
-              <button class="btn btn-outline-info me-2" type="button"data-bs-toggle="modal" data-bs-target="#loginModal">Log In</button>
+              <button class="btn btn-outline-danger me-2 my-2" type="button" data-bs-toggle="modal"
+                data-bs-target="#signupModal">Sign Up</button>
+              <button class="btn btn-outline-info me-2" type="button" data-bs-toggle="modal"
+                data-bs-target="#loginModal">Log In</button>
             </form>
-          </form>
-        </li>
-      </ul>
-    </div>
-  </div>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-</nav>
-<!-- Sign Up Modal -->
-<div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="signupModalLabel">Register Yourself</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </form>
+          </li>
+        </ul>
       </div>
-      <div class="modal-body">
-        <form>
-          <div class="row">
-            <div class="col">
-              First Name<input type="text" class="form-control" placeholder="Enter Your First name" aria-label="First name">
-            </div>
-            <div class="col">
-              Last Name<input type="text" class="form-control" placeholder="Enter Your Last name" aria-label="Last name">
-            </div>
-          </div>
-          <div class="row mb-3">
-            <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
-            <div class="col-sm-10">
-              <input type="email" class="form-control" placeholder="Enter Your Email" id="inputEmail3">
-            </div>
-          </div>
-          <div class="row mb-3">
-            <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
-            <div class="col-sm-10">
-              <input type="password" class="form-control" id="inputPassword3" placeholder="Create a Password">
-            </div>
-            <label for="inputPassword3" class="col-sm-2 col-form-label">Confirm Password</label>
-            <div class="col-sm-10">
-              <input type="password" class="form-control" id="inputPassword3" placeholder="Re-enter Password">
-              <div>
-                Already Have Account  <button class="btn btn-outline-info me-2 my-2 mx-3" type="button"data-bs-toggle="modal" data-bs-target="#loginModal">Log In</button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+      crossorigin="anonymous"></script>
+  </nav>
+  <!-- Sign Up Modal -->
+  <div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="signupModalLabel">Register Yourself</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="row">
+              <div class="col">
+                First Name<input type="text" class="form-control" placeholder="Enter Your First name"
+                  aria-label="First name">
+              </div>
+              <div class="col">
+                Last Name<input type="text" class="form-control" placeholder="Enter Your Last name"
+                  aria-label="Last name">
               </div>
             </div>
-          </div>
+            <div class="row mb-3">
+              <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+              <div class="col-sm-10">
+                <input type="email" class="form-control" placeholder="Enter Your Email" id="inputEmail3">
+              </div>
+            </div>
+            <div class="row mb-3">
+              <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+              <div class="col-sm-10">
+                <input type="password" class="form-control" id="inputPassword3" placeholder="Create a Password">
+              </div>
+              <label for="inputPassword3" class="col-sm-2 col-form-label">Confirm Password</label>
+              <div class="col-sm-10">
+                <input type="password" class="form-control" id="inputPassword3" placeholder="Re-enter Password">
+                <div>
+                  Already Have Account <button class="btn btn-outline-info me-2 my-2 mx-3" type="button"
+                    data-bs-toggle="modal" data-bs-target="#loginModal">Log In</button>
+                </div>
+              </div>
+            </div>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -122,7 +133,8 @@
               </div>
             </div>
             <div>
-              Create an Account  <button class="btn btn-outline-info me-2 my-2 mx-3" type="button"data-bs-toggle="modal" data-bs-target="#signupModal">Sign Up</button>
+              Create an Account <button class="btn btn-outline-info me-2 my-2 mx-3" type="button" data-bs-toggle="modal"
+                data-bs-target="#signupModal">Sign Up</button>
             </div>
           </form>
         </div>
@@ -155,9 +167,10 @@
     </button>
   </div>
   <br />
-  <h1 style="text-align:center">  Create Your Website In Very Low Cost
+  <h1 style="text-align:center"> Create Your Website In Very Low Cost
     <br />
-    <small class="text-muted">We are creating Website at very Low cost. If you want a wordpress or a Bootstrap blog or a business site or site for any purpose please Sign Up</small>
+    <small class="text-muted">We are creating Website at very Low cost. If you want a wordpress or a Bootstrap blog or a
+      business site or site for any purpose please Sign Up</small>
   </h1>
   <div class="card-group">
     <div class="card">
@@ -165,7 +178,8 @@
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">
-          This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+          This is a wider card with supporting text below as a natural lead-in to additional content. This content is a
+          little bit longer.
         </p>
         <p class="card-text">
           <small class="text-muted">Last updated 3 mins ago</small>
@@ -189,7 +203,8 @@
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">
-          This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.
+          This is a wider card with supporting text below as a natural lead-in to additional content. This card has even
+          longer content than the first to show that equal height action.
         </p>
         <p class="card-text">
           <small class="text-muted">Last updated 3 mins ago</small>
@@ -206,10 +221,11 @@
       <p class="card-text">
         Sign up and Claim a free Website
       </p>
-      <a class="btn btn-primary"data-bs-toggle="modal" data-bs-target="#signupModal">Sign Up</a>
+      <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#signupModal">Sign Up</a>
     </div>
     <div class="card-footer text-muted">
     </div>
   </div>
 </body>
+
 </html>
